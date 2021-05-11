@@ -23,6 +23,8 @@ requirements:
     - python >=3.6
     - lightgbm
     - matplotlib-base
+    - scikit-plot
+    - graphviz
 
 test:
   imports:

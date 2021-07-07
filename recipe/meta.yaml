@@ -1,5 +1,5 @@
 {% set name = "neptune-lightgbm" %}
-{% set version = "0.9.12" %}
+{% set version = "0.9.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/neptune-ai/{{ name }}/archive/{{ version }}.tar.gz
-  sha256: 7a2120d674133a95935de72a10152636bfb1ccff26db823f7e166aaeaf00a29a
+  sha256: adb5f0685536a53654e07f325a326020a21ab56838fd51b2cb6229ba3960bc98
 
 build:
   noarch: python

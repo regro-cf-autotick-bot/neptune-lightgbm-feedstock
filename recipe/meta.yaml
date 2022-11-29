@@ -27,7 +27,7 @@ requirements:
     - lightgbm
     - matplotlib-base
     - scikit-plot
-    - graphviz
+    - python-graphviz
 
 test:
   imports:

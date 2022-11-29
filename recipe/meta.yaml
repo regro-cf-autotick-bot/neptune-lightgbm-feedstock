@@ -33,6 +33,10 @@ test:
   imports:
     - neptune_lightgbm
     - neptune_lightgbm.impl
+  requires:
+    - pip
+  commands:
+    - pip check
 
 about:
   home: https://neptune.ai/

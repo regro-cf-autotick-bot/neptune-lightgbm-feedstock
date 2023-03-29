@@ -1,6 +1,6 @@
 {% set name = "neptune-lightgbm" %}
 {% set package_name = "neptune_lightgbm" %}
-{% set version = "1.0.0" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://files.pythonhosted.org/packages/source/{{ name[0] }}/{{ name }}/{{ package_name }}-{{ version }}.tar.gz
-  sha256: 8f88e353e4f49470e9d18f1b49bbfb43740c8b6891f18a47418582426456e692
+  sha256: 52e0f2f1df57c0fae5b10d50c5f8e4264457f740ac8e04b3b97d2cae49c8629a
 
 build:
   noarch: python

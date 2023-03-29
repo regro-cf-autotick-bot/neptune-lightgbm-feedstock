@@ -1,11 +1,11 @@
-About neptune-lightgbm
-======================
+About neptune-lightgbm-feedstock
+================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/neptune-lightgbm-feedstock/blob/main/LICENSE.txt)
 
 Home: https://neptune.ai/
 
 Package license: Apache-2.0
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/neptune-lightgbm-feedstock/blob/main/LICENSE.txt)
 
 Summary: Neptune Client integration with LightGBM
 

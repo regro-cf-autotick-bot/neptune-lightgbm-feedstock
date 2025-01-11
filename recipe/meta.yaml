@@ -12,18 +12,18 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: '{{ PYTHON }} -m pip install . -vv '
 
 requirements:
   host:
     - pip
-    - python >=3.6
+    - python {{ python_min }}
     - poetry-core >=1.0.0
     - poetry-dynamic-versioning
   run:
     - neptune-client >=0.9
-    - python >=3.6
+    - python >={{ python_min }}
     - lightgbm
     - matplotlib-base
     - scikit-plot
@@ -35,6 +35,7 @@ test:
     - neptune_lightgbm.impl
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
 
